@@ -55,7 +55,7 @@ def newton():
     print("Результат:  {}".format(x))
 
 
-def mod_newton_method():
+def mod_newton():
     print("\n\nМодифицированный метод Ньютона:")
     xn = x0
     iteration_count = 0
@@ -116,7 +116,7 @@ def simple_iteration():
 if __name__ == '__main__':
     half_division()
     newton()
-    mod_newton_method()
+    mod_newton()
     chord()
     movable_chord()
     simple_iteration()
