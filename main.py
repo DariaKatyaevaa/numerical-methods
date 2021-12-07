@@ -18,6 +18,15 @@ def phi(x):
     return math.log(4.6 * x)
 
 
+'''Обоснование'''
+
+
+def doc():
+    print('обоснование выбора отрезка [2, 2.5] f(a) * f(b) < 0: ', f(a) * f(b))
+    print('обоснование выбора х0 = 2.5 f(х0) * f\'\'(x0) > 0: ', f(x0) * math.exp(x0))
+    print('\n\n')
+    
+
 '''Solution methods'''
 
 
@@ -114,6 +123,7 @@ def simple_iteration():
 
 
 if __name__ == '__main__':
+    doc()
     half_division()
     newton()
     mod_newton()
